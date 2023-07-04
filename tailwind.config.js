@@ -13,6 +13,14 @@ module.exports = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+    fontFamily: {
+      abc: ["Poppins", "sans-serif"]
+    },
+
+    boxShadow: {
+      '3xl': '0 0px 50px 10px rgba(0, 0, 0, 0.7)',
+    }
+
   },
   plugins: [],
 }
