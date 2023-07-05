@@ -2,7 +2,7 @@ import { Github, Linkedin, Instagram, ArrowDownToLine} from 'lucide-react';
 
 const Resume = () => {
     return ( 
-        <div className="flex flex-wrap justify-around mt-32 border-b-2 border-yellow-200">
+        <div className="flex flex-wrap justify-around gap-28 p-52" id='resume'>
             <div className="mt-16">
                 <h1 className="text-yellow-200 font-abc">
                     Hello, I`m Lucas Sampaio
@@ -43,7 +43,15 @@ const Resume = () => {
                 <div className="w-96 shadow-3xl mb-16 rounded-3xl"><img src="./lucas.png" alt="Lucas" /></div>
             </div>
 
+            <div class="box">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
         </div>
+
      );
 }
  

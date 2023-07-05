@@ -17,6 +17,8 @@
   }
 }
 
+/* Resume */
+
 #developer {
   border-right: 2px solid #DEDE83;
   color: #DEDE83;
@@ -47,3 +49,220 @@
   width: 5em;
   }
 }
+
+
+
+
+.box{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.box span{
+	display: block;
+	width: 20px;
+	height: 20px;
+	border-bottom: 2px solid #DEDE83;
+	border-right: 2px solid #DEDE83;
+	transform: rotate(45deg);
+	margin: -10px;
+	animation: animate 2s infinite;
+}
+
+.box span:nth-child(2)
+{
+	animation-delay: -0.2s;
+}
+
+.box span:nth-child(3)
+{
+	animation-delay: -0.4s;
+}
+
+@keyframes animate{
+	
+	0%{
+		opacity: 0;
+		transform: rotate(45deg) translate(-20px, -20px);
+	}
+	50%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+		transform: rotate(45deg) translate(20px, 20px);
+	}
+}
+
+/* fim resume */
+
+
+/* About */
+
+#p-sobre {
+  text-align: center;
+  width: 700px;
+  color: wheat;
+  gap: 2rem;
+  margin-top: 50px;
+}
+
+/* fim About */
+
+
+/* Projects */
+
+
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  margin-left: 9px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: wheat;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.25s;
+}
+
+.image__overlay {
+  opacity: 0;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image__overlay--solid {
+  background: #c51f5d;
+}
+
+.image__title {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 0 0 0.5rem;
+}
+
+.image__description {
+  font-size: 25px;
+}
+
+.volkan {
+  color: #fff;
+  font-size: small;
+  opacity: 0.7;
+  text-decoration: none;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+/* fim Projects */
+
+
+/* efeito smooth */
+
+
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.three {
+  -webkit-animation-delay: 700ms;
+  -moz-animation-delay: 700ms;
+  animation-delay: 700ms;
+}
+
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+
+
+
+
+
+.one {
+  -webkit-animation-delay: 0.5s;
+  -moz-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/* fim /* efeito smooth */

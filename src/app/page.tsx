@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Header from './components/Header';
 import Resume from './components/Resume';
 import About from './components/About';
+import Projects from './components/Projects'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <Header/>
       <Resume />
       <About />
+      <Projects />
     </section>
   )
 }
