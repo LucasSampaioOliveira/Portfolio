@@ -175,6 +175,10 @@
 /* efeito smooth */
 
 
+.body {
+  scroll-behavior: smooth;
+}
+
 .animate {
   -webkit-animation-duration: 1s;
   animation-duration: 1s;
@@ -266,3 +270,48 @@
 }
 
 /* fim /* efeito smooth */
+
+
+/* Contato */
+
+
+.local {
+  color: wheat;
+  opacity: 0.5;
+}
+
+
+/* fim Contato */
+
+/* barra scrol */
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background: rgb(15, 23, 42);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #DEDE83; 
+  border-radius: 20px;       
+}
+/* fim barra scrol */
+
+
+/*Floating Back-To-Top Button*/
+#myBtn {
+  position: fixed;
+  bottom: 50px;
+  color: #fff;
+  border-color: rgba(85, 85, 85, 0.2);
+  box-shadow: 0 0px 25px 10px rgba(0, 0, 0, 0.7);
+  padding: .5px;
+  border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+  color: #DEDE83;
+}

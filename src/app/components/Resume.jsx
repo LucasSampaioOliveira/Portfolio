@@ -31,7 +31,7 @@ const Resume = () => {
                 </div>
 
                 <div className='mt-10 w-64 p-4 shadow-3xl rounded-xl'>
-                    <a href="https://www.instagram.com/lucas.sampaio33/" className="flex gap-2 font-semibold text-white transition hover:text-yellow-200 duration-500 text-xl" target="_blank">
+                    <a href="./LucasSampaioOliveira-Currículo.pdf" className="flex gap-2 font-semibold text-white transition hover:text-yellow-200 duration-500 text-xl" target="_blank" download="LucasSampaioOliveira-Currículo">
                         Download Currículo
                         <ArrowDownToLine/>
                     </a>

@@ -9,7 +9,6 @@ const About = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus dolorum nisi ab, consectetur nulla perferendis ducimus earum laborum voluptas quaerat eos, optio repellat. Excepturi asperiores cupiditate distinctio tenetur nulla consequuntur.
                 </p>
             </div>
-
         </div>
      );
 }
