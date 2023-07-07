@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="mt-14">
                 <div>
                     <div className="flex flex-wrap justify-center">
-                        <a href="mailto:lucas.sampaio33@hotmail.com"><h1 className="text-white font-semibold text-4xl font-abc p-6">lucas.sampaio33@hotmail.com</h1></a>
+                        <a href="mailto:lucas.sampaio33@hotmail.com"><h1 className="text-white font-semibold text-4xl font-abc p-6 hover:text-yellow-200 transition duration-500">lucas.sampaio33@hotmail.com</h1></a>
                     </div>
                     <div className="flex flex-wrap justify-center">
                         <h1 className="text-yellow-200 text-xl font-abc p-6">(+55)27999848179</h1>
