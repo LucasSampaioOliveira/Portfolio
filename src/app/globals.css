@@ -27,6 +27,12 @@
   overflow: hidden;
 }
 
+@media (max-width: 1279px) {
+  #developer {
+    font-size: 3.5rem;
+  }
+}
+
 #developer {
   animation: blinkCursor 500ms steps(30) infinite normal, typing 4s steps(30) 1s normal both;
 }
@@ -58,6 +64,12 @@
 	top: 95%;
 	left: 50%;
 	transform: translate(-50%, -50%);
+}
+
+@media (max-width: 1279px) {
+  .box {
+    display: none;
+  }
 }
 
 .box span{
@@ -109,6 +121,12 @@
   margin-top: 50px;
 }
 
+@media (max-width: 720px) {
+  #p-sobre {
+    width: 350px;
+  }
+}
+
 /* fim About */
 
 
@@ -149,13 +167,16 @@
 }
 
 .image__title {
+  text-align: center;
   font-weight: bold;
   font-size: 30px;
   padding: 0 0 0.5rem;
 }
 
+
 .image__description {
   font-size: 25px;
+  text-align: center;
 }
 
 .volkan {
